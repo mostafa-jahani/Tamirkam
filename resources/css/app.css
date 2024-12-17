@@ -1,3 +1,28 @@
+@import "reset.css";
+@import "fonts.css";
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: IRANSans;
+        /*overflow-x: hidden;*/
+    }
+
+    .iran-yekan {
+        font-family: IRANYekan;
+    }
+
+    .iran-yekan-medium {
+        font-family: IRANYekanMedium;
+    }
+
+}
